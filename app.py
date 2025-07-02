@@ -12,10 +12,10 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # === CONFIGURATION ===
-CLIENT_ID = 'E34A7C75887040E8B7170BEFBC27E22E'
-CLIENT_SECRET = 'udF2votW59Sef_HSXP2_I1tyXZf6Ji_FSNADE3QqH7VofagE'
-REDIRECT_URI = 'http://localhost:5000/callback'
-OPENAI_API_KEY = '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'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+REDIRECT_URI = ''
+OPENAI_API_KEY = ''
 
 AUTH_BASE_URL = 'https://login.xero.com/identity/connect/authorize'
 TOKEN_URL = 'https://identity.xero.com/connect/token'
